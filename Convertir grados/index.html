@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Conversor de grados</title>
   </head>
 <!--  <style type ="text/css">
 table,td {
@@ -10,24 +10,26 @@ table,td {
 }
 </style>-->
   <body>
+
     <body style="background-color: #b0569a;">
+
       <h1><font color="white">Convertir grados</font></h1>
-
-
-      <table>
+      <script src="calcular.js"></script>
+      <table border="1">
 
     <tr>
       <td>Fahrenheit</td>
-      <td>23</td>
-      <td>Botón aquí</td>
+      <td><input type= "text" id= "fahrenheit"/></td>
+      <td><button type="button" onclick="aCelsius();">Convertir a Celsius</button></td>
+      <td><input type= "text" id= "resultadoFahrenheit"/></td>
     </tr>
-
     <tr>
       <td>Celsius</td>
-      <td>-5</td>
-      <td>Botón aquí</td>
+      <td><input type= "text" id= "celsius"/></td>
+      <td><button type="button" onclick="aFahrenheit();">Convertir a Fahrenheit</button></td>
+      <td><input type= "text" id= "resultadoCelsius"/></td>
     </tr>
-
     </table>
+
       </body>
 </html>
