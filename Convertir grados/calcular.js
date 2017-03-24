@@ -2,7 +2,6 @@ function aFahrenheit(){
   var celsius = parseInt(document.getElementById('celsius').value);
   var resultadoCelsius = (celsius * 1.8) + 32;
   document.getElementById('resultadoCelsius').value = resultadoCelsius;
-
 }
 
 function aCelsius(){
